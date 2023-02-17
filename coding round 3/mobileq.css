@@ -1,0 +1,219 @@
+.main{
+    border:1px solid black;
+    height:800px;
+    width:100%;
+    background-color: black;
+}
+.head{
+    border:1px solid yellow;
+    width:100%;
+    height:200px;
+    background-color: yellow;
+}
+.btmain{
+    display:flex;
+    flex-direction: row;
+    border:1px solid black;
+    border-style: none;
+    width:500px;
+    height:50px;
+    position: absolute;
+    top:130px;
+    right:50px;
+}
+.b{
+    text-align: center;
+    border-radius: 10px;
+    border:1px solid black;
+    width:80px;
+    height:50px;
+    background-color: blue;
+    color:white;
+    margin:auto;
+}
+.flexmain{
+    border:1px solid black;
+    border-style: none;
+    width:50%;
+    height:300px;
+    display:flex;
+    flex-direction: row;
+    position: absolute;
+    top:300px;
+    left:400px;
+    gap:10px;
+}
+.f1{
+    border:1px solid black;
+    transition:5s transform;
+    width:150px;
+    height:150px;
+    background-color: orange;
+    color:white;
+    text-align: center;
+    margin:auto;
+}
+.f1:hover{
+    transform:scale(1.5);
+    background-color: red;
+
+}
+.f2{
+    border:1px solid black;
+    border:1px solid black;
+    transition:5s transform;
+    width:150px;
+    height:150px;
+    background-color: orange;
+    color:white;
+    text-align: center;
+    margin:auto;
+}
+.f2:hover{
+    transform:scale(-1);
+    background-color: red;
+}
+.f3{
+    border:1px solid black;
+    width:150px;
+    height:150px;
+    border-radius: 0px;
+    transition:all 5s;
+    background-color: orange;
+    color:white;
+    text-align: center;
+    margin:auto;
+}
+.f3:hover{
+    border-radius: 50%;
+    background-color: red;
+}
+
+.f4{
+    border:1px solid black;
+    width:150px;
+    height:150px;
+    transition: width 5s;
+    background-color: orange;
+    color:white;
+    text-align: center;
+    margin:auto;
+}
+.f4:hover{
+    width:200px;
+    background-color: red;
+}
+
+
+@media only screen and (min-width:300px) and (max-width:500px){
+    .main{
+        border:1px solid black;
+        height:800px;
+        width:340px;
+        background-color: black;
+    }
+    .head{
+        border:1px solid yellow;
+        width:100%;
+        height:100px;
+        background-color: yellow;
+    }
+    img{
+        height:100px;
+        width:100px;
+    }
+    .btmain{
+        display:none;
+        flex-direction: row;
+        border:1px solid black;
+        border-style: none;
+        width:500px;
+        height:50px;
+        position: absolute;
+        top:130px;
+        right:50px;
+    }
+    .b{
+        display:none;
+        text-align: center;
+        border-radius: 10px;
+        border:1px solid black;
+        width:80px;
+        height:50px;
+        background-color: blue;
+        color:white;
+        margin:auto;
+    }
+    .flexmain{
+        border:1px solid black;
+        border-style: none;
+        width:50%;
+        height:300px;
+        display:flex;
+        flex-direction: column;
+        position: absolute;
+        top:150px;
+        left:100px;
+        gap:10px;
+    }
+    .f1{
+        border:1px solid black;
+        transition:5s transform;
+        width:150px;
+        height:150px;
+        background-color: orange;
+        color:white;
+        text-align: center;
+        margin:auto;
+    }
+    .f1:hover{
+        transform:scale(1.5);
+        background-color: red;
+    
+    }
+    .f2{
+        border:1px solid black;
+        border:1px solid black;
+        transition:5s transform;
+        width:150px;
+        height:150px;
+        background-color: orange;
+        color:white;
+        text-align: center;
+        margin:auto;
+    }
+    .f2:hover{
+        transform:scale(-1);
+        background-color: red;
+    }
+    .f3{
+        border:1px solid black;
+        width:150px;
+        height:150px;
+        border-radius: 0px;
+        transition:all 5s;
+        background-color: orange;
+        color:white;
+        text-align: center;
+        margin:auto;
+    }
+    .f3:hover{
+        border-radius: 50%;
+        background-color: red;
+    }
+    
+    .f4{
+        border:1px solid black;
+        width:150px;
+        height:150px;
+        transition: width 5s;
+        background-color: orange;
+        color:white;
+        text-align: center;
+        margin:auto;
+    }
+    .f4:hover{
+        width:200px;
+        background-color: red;
+    }
+}
